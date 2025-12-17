@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020115_ProdiModel extends Model { protected $table = 'prodi'; protected $primaryKey = 'id_prodi'; protected $allowedFields = ['nama_prodi', 'id_user_kaprodi', 'id_jurusan']; }

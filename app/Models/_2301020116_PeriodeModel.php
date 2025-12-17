@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020116_PeriodeModel extends Model { protected $table = 'periode_kuisioner'; protected $primaryKey = 'id_periode'; protected $allowedFields = ['keterangan', 'status_periode']; protected $returnType = 'object'; }

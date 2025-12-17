@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020013_RelasiPertanyaanModel extends Model { protected $table = 'pertanyaan_periode_kuisioner'; protected $primaryKey = 'id_pertanyaan_periode_kuisioner'; protected $allowedFields = ['id_periode_kuisioner', 'id_pertanyaan']; }

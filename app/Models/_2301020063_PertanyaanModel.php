@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020063_PertanyaanModel extends Model { protected $table = 'pertanyaan'; protected $primaryKey = 'id_pertanyaan'; protected $allowedFields = ['pertanyaan', 'id_prodi']; protected $returnType = 'object';}

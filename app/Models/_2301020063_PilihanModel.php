@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020063_PilihanModel extends Model { protected $table = 'pilihan_jawaban_pertanyaan'; protected $primaryKey = 'id_pilihan_jawaban'; protected $allowedFields = ['deskripsi_pilihan', 'id_pertanyaan']; protected $returnType = 'object'; }

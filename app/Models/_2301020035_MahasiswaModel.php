@@ -1,0 +1,2 @@
+<?php namespace App\Models; use CodeIgniter\Model;
+class _2301020035_MahasiswaModel extends Model { protected $table = 'mahasiswa'; protected $primaryKey = 'nim'; protected $allowedFields = ['nim', 'nama_mahasiswa', 'id_user', 'id_prodi']; protected $returnType = 'object';}
